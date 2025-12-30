@@ -47,6 +47,7 @@ touch /etc/xray/domain
 touch /etc/v2ray/domain
 touch /etc/xray/scdomain
 touch /etc/v2ray/scdomain
+cd /usr/bin/ && ln -s python2.7 python
 
 
 echo -e "[ ${BBlue}NOTES${NC} ] Before we go.. "
